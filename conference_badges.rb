@@ -11,4 +11,5 @@ end
 
 def assign_rooms(names)
   room = 0
-while room < 7
+  names.collect do |name|
+    
